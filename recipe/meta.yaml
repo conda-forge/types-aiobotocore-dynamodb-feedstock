@@ -1,5 +1,5 @@
 {% set name = "types-aiobotocore-dynamodb" %}
-{% set version = "2.4.2" %}
+{% set version = "2.4.2.post2" %}
 {% set lib_version = version.split(".post")[0] %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 93986df49a7497cce618b49576451c7eee2dfe9ff78845141684b1200922bfc8
+  sha256: eb6b86cd9bd3aef496be10b6a04c40e4b3c922b1aa04c5c0b55f2fa30f9df386
 
 build:
   script: {{ PYTHON }} -m pip install . -vv

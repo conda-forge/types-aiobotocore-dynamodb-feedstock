@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "3.9.2"
+  version: "3.10.0"
 
 package:
   name: types-aiobotocore-dynamodb
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-aiobotocore-dynamodb/types_aiobotocore_dynamodb-${{ version }}.tar.gz
-  sha256: bdf223e21f247df7086614f4b6714dbf56be1ea53b710e0d73d4fb91861f28cf
+  sha256: ef8dbd5dc3e10a817d30b661ec02b91405a9443577f4f0a0ff839c6113e6f016
 
 build:
   number: 0
